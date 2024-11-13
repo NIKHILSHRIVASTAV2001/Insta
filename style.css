@@ -1,0 +1,185 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    height: 768px;
+}
+.phonecontainerrow1c1{
+    width: 73%;
+    height: 630px;
+    background-image: url(main.png);
+    background-repeat: no-repeat;
+    background-position: 6cm 1.3cm;
+}
+.phonecontainerrow1c1>img{
+    width: 250px;
+    height: 545px;
+    margin-top: 1.9cm;
+    margin-left: 8cm ;
+}
+.instagramrow1c2{
+    width: 27%;
+    height:430px;
+    margin-top: -15.3cm;
+    border:1px solid rgba(219, 219, 219);
+    margin-left: 700px;
+    
+}
+img{
+    padding-left: 80px;
+}
+.center{
+    width:75%;
+    height:85px;
+    grid-auto-columns: 7.1cm;
+    padding-top: 40px;
+    display: grid;
+    padding-left:42px;
+    border-radius: 5px;
+    background-color:#fafafa;
+    row-gap: 10px;
+}
+input{
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    font:inherit;
+    font-size: 14px;
+}
+.button{
+    width:75%;
+    height:40px;
+    display:grid;
+    padding-left: 42px;
+    padding-top: 10px;
+}
+.button>button{
+    background-color:#a791ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.centerlower{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding-left: 33px;
+    justify-content: space-between;
+    margin-top: 20px;
+    column-gap: 18px;
+    font-size: 14px;
+}
+.centerlower span:nth-child(1),
+.centerlower span:nth-child(3){
+    width: 100%;
+    height: 1px;
+    background-color: rgba(219, 219, 219);
+    display: block;
+}
+.centerlower2{
+    text-align: center;
+    margin-top: 30px;
+    color:#385185;
+    font-size: large;
+}
+.signup{
+    width: 100%;
+    height: 40px;
+    border:1px solid rgba(219, 219, 219);
+    text-align: center;   
+    padding-top: 20px;
+}
+.dont{
+    color: #385185;
+    padding-left: 2px;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.app{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+.appimg{
+    width:100%;
+    height: 40px;
+    display:flex;
+    margin-left: -1cm;
+}
+.appimg2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-left: -1.5cm;
+}
+.footer{
+    text-align: center;
+    word-spacing: 20px;
+    font-size: 12px;
+    margin-top:-50px;
+    color:#737373;
+}
+
+/* Media query for max-width of 890px */
+@media (max-width: 890px) {
+    .main {
+        height: auto; /* Adjust height for responsive design */
+    }
+
+    .phonecontainerrow1c1 {
+        width: 100%;
+        height: 400px; /* Adjusted height for smaller screens */
+        background-image: none;
+        display:none;
+    }
+
+    .instagramrow1c2 {
+        width: 100%;
+        height: 300px;
+        margin-top: 20px; /* Adjust margin to prevent overlap */
+        margin-left: 0;
+        border: 1px solid rgba(219, 219, 219);
+    }
+
+    .center {
+        width: 90%;
+        padding-left: 20px;
+        grid-auto-columns: auto;
+    }
+
+    .button {
+        width: 90%;
+        padding-left: 20px;
+    }
+
+    .centerlower {
+        width: 90%;
+        padding-left: 20px;
+        font-size: 12px;
+        column-gap: 10px;
+    }
+
+    .centerlower2 {
+        font-size: medium;
+    }
+
+    .signup {
+        width: 90%;
+        font-size: small;
+    }
+
+    .appimg, .appimg2 {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .footer {
+        font-size: 10px;
+        margin-top: 20px;
+        word-spacing: 10px;
+    }
+}
+
+        
+    
